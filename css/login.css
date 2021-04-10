@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  color: #7400B8;
+}
+.header {
+  align-items: center;
+  /* background-color: #21c08b; */
+  color: #7400B8;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__logo h1 {
+  margin: 0;
+}
+.header__img {
+  width: 40px;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.login {
+  /* background: linear-gradient(#ffffff, #AB88FF); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+.login__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #7400B8;
+  border-radius: 40px;
+  color: #7400B8;
+  padding: 60px 68px 40px;
+  min-height: 700px;
+  width: 300px;
+}
+.login__container--form {
+  display: flex;
+  flex-direction: column;;
+}
+.login__container--form label {
+  font-size: 14px;
+}
+.login__container--remember-me {
+  color: #7400B8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login__container--remember-me a {
+  color: #7400B8;
+  font-size: 14px;
+  text-decoration: none;
+}
+.login__container--remember-me a:hover {
+  text-decoration: underline;
+}
+.login__container--social-media > div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.login__container--form .input {
+  height: 32px;
+  border-radius: 10px;
+  border: 2px solid #b0a2b8;
+  outline: none;
+  padding: 0 5px;
+  background-color: (255, 255, 255, 0.1);
+  width: 100%;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.login__container--form .button {
+  height: 32px;
+  border-radius: 10px;
+  color: white;
+  padding: 0 5px;
+  background-color: #7400B8;
+  margin-bottom: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login__container--social-media img {
+  width: 40px;
+}
