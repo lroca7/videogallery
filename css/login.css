@@ -5,13 +5,26 @@ body {
 }
 .header {
   align-items: center;
-  /* background-color: #21c08b; */
-  color: #7400B8;
+  background-color: #7400B8;
+  color: white;
   display: flex;
-  height: 100px;
+  height: 50px;
   justify-content: space-between;
   top: 0px;
   width: 100%;
+  margin-bottom: 20px;
+
+  background: hsla(197, 100%, 63%, 1);
+
+  background: linear-gradient(360deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+  background: -moz-linear-gradient(360deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+  background: -webkit-linear-gradient(360deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+
+  box-shadow: 0px 2px 2px 1px rgb(61 51 96 / 29%);
 }
 .header__logo {
   display: flex;
@@ -43,6 +56,13 @@ body {
   padding: 60px 68px 40px;
   min-height: 700px;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login__container h2 {
+  margin: 0;
+  padding: 0;
 }
 .login__container--form {
   display: flex;
@@ -66,6 +86,11 @@ body {
 .login__container--remember-me a:hover {
   text-decoration: underline;
 }
+
+.login__container--social-media {
+  margin-top: 20px;
+}
+
 .login__container--social-media > div {
   display: flex;
   align-items: center;
@@ -96,8 +121,36 @@ body {
   border: none;
   width: 100%;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .login__container--social-media img {
   width: 40px;
+}
+
+.footer {
+  padding: 60px 20px 20px 20px;
+}
+
+.footer a {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login__container {
+    border: none;
+    padding: 0;
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .footer a {
+    margin-bottom: 10px;
+  }
 }
