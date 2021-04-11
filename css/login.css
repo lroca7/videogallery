@@ -5,7 +5,7 @@ body {
 }
 .header {
   align-items: center;
-  background-color: #7400B8;
+  /* background-color: #7400B8; */
   color: white;
   display: flex;
   height: 50px;
@@ -13,7 +13,7 @@ body {
   top: 0px;
   width: 100%;
   margin-bottom: 20px;
-
+/* 
   background: hsla(197, 100%, 63%, 1);
 
   background: linear-gradient(360deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
@@ -22,7 +22,7 @@ body {
 
   background: -webkit-linear-gradient(360deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 ); */
 
   box-shadow: 0px 2px 2px 1px rgb(61 51 96 / 29%);
 }
